@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+*.pem
+secrets/
+
+# Data & models (DVC tracked)
+data/raw/
+data/processed/
+models/*.cbm
+models/*.pt
+models/*.pth
+!models/.gitkeep
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+postgres_data/
+redis_data/
+
+# Logs
+*.log
+logs/
+
+# Geo/raster (large files)
+*.tif
+*.tiff
+*.hdf
+*.nc
+!tests/fixtures/**/*.tif
