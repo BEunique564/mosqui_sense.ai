@@ -75,4 +75,4 @@ See [docs/RESEARCH_REFERENCES.md](docs/RESEARCH_REFERENCES.md) for full citation
 ## License
 
 Proprietary —@BEunique564
-Lucknow Municipal Corporation / Government of Uttar Pradesh deployment license required.
+
