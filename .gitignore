@@ -57,3 +57,8 @@ logs/
 *.hdf
 *.nc
 !tests/fixtures/**/*.tif
+
+# Local databases
+*.db
+*.db-journal
+*.sqlite3

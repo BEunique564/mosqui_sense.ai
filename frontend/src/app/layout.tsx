@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MosquiSense AI — Lucknow Municipal Corporation",
-  description: "Predictive mosquito outbreak intelligence platform",
+  title: "MosquiSense AI — Sadar Cantt, Lucknow",
+  description: "Real-time mosquito outbreak prediction for Sadar Cantt using MOSDAC satellite data + AI ensemble",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
